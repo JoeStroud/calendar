@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments :: head"></head>
+
+
+<body>
+<a th:href="@{/login}">Login.</a><br /><br />
+<div class="form">
+    <h3 th:text="${goodbye}"></h3> <br />
+    <h1 th:text="${user}"></h1>
+</div>
+</body>
+</html>
